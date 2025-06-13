@@ -156,35 +156,6 @@
     font-weight: 500;
 }
 
-/* Responsive updates for mobile */
-@media (max-width: 768px) {
-    .about-content {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-
-    .about-image {
-        order: -1;
-    }
-
-    .profile-photo {
-        width: 200px;
-        height: 200px;
-    }
-
-    .interests-grid {
-        gap: 10px;
-    }
-
-    .interest-item {
-        padding: 10px;
-    }
-
-    .interest-item span {
-        font-size: 0.9rem;
-    }
-}
-
 /* Credentials Grid - Updated */
 .cred-grid {
     display: grid;

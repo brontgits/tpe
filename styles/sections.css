@@ -13,7 +13,7 @@
     }
 
     .section:nth-child(even) {
-        background: #457b9d;
+        background: #639bbd; /* older 457b9d */
     }
 
     .section h2 {
@@ -44,7 +44,7 @@
         font-size: 1.1rem;
         margin-bottom: 30px;
         text-align: center;
-        color: #1a365d;
+        color: #132846; /* older 1a365d */
         max-width: 800px;
         margin-left: auto;
         margin-right: auto;
