@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-image {
+        order: -1;
+    }
+
+    .profile-photo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .interests-grid {
+        gap: 10px;
+    }
+
+    .interest-item {
+        padding: 10px;
+    }
+
+    .interest-item span {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .nav-links {
+        display: none;
+    }
+    
+    .section {
+        padding: 60px 0;
+    }
+    
+    .schedule-container {
+        padding: 30px 20px;
+    }
+    
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .process-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        scroll-padding-top: 80px; /* Desktop nav height */
+    }
+}
